@@ -7,6 +7,7 @@ import HowItWorks from '../../components/home/Howitsworks'
 import Testimonials from '../../components/home/Testimonials'
 import CTA from '../../components/home/CTA'
 import Footer from '../../components/layout/Footer'
+import FeaturedJobs from '../../components/home/PlatformFeatures'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Navbar />
         <Hero/>
         <Categories/>
+        <FeaturedJobs/>
         <Companies/>
         <HowItWorks />
         < Testimonials />
