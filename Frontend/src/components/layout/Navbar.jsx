@@ -1,5 +1,6 @@
 import React from "react";
 import {Moon} from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -36,14 +37,14 @@ const Navbar = () => {
                         <Moon size={20} />
                     </button>
 
-                    <button className="border border-[#10B981] text-[#10B981] px-4 py-2 rounded-lg  
+                    <Link to="/login" className="border border-[#10B981] text-[#10B981] px-4 py-2 rounded-lg  
                      transition active:scale-95">
                         Login
-                    </button>
-
-                    <button className="bg-[#10B981] text-white px-4 py-2 rounded-lg hover:bg-emerald-600 transition active:scale-95">
+                    </Link>
+        
+                    <Link to="/register" className="bg-[#10B981] text-white px-4 py-2 rounded-lg hover:bg-emerald-600 transition active:scale-95">
                         Register
-                    </button>
+                    </Link>
                 </div>
             </div>
         </nav>
